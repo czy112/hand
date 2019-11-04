@@ -1,0 +1,11 @@
+fine_tune_checkpoint 后的路径改为 ssd_mobilenet_v1_pets.config 的路径；
+E:/tensortestde/tensormodel/ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03/model.ckpt
+
+train_input_reader下的 input_path 后的路径改为 pascal_train.record 的路径，l
+E:/py_tfcpu/egohandtrain/images/train.record
+
+abel_map_path后的路径改为 hand_label_map.pbtxt 的路径；
+E:/py_tfcpu/egohandtrain/hand_inference_graph/hand_label_map.pbtxt
+
+eval_input_reader下的路径同上。
+E:/py_tfcpu/egohandtrain/images/test.record
